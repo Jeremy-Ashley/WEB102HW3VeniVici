@@ -44,7 +44,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![walkthrough](https://i.imgur.com/XTJpx2a.gif)
+![walkthrough](https://i.imgur.com/8i2LAg5.gif)
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with LiceCap
