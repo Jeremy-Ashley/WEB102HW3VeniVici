@@ -18,7 +18,7 @@ async function getData() {
     const date = getRandomDate();
 
     const response = await fetch(
-      `https://api.nasa.gov/planetary/apod?api_key=&date=${date}`
+      `https://api.nasa.gov/planetary/apod?api_key=HFg2R1tZQv17CvnrCcgcOg9pXO4NzZm6QaZNkjY6&date=${date}`
     );
 
     const data = await response.json();
@@ -43,7 +43,7 @@ async function getData() {
     setBanList(banList.filter(item => item !== value));
   }
   function getRandomDate() {
-  const start = new Date(1995, 5, 16); // APOD start date
+  const start = new Date(1995, 5, 16); 
   const end = new Date();
 
   const randomTime =
